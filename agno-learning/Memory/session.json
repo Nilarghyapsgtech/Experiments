@@ -1,0 +1,205 @@
+[
+  {
+    "session_id": "session_1",
+    "agent_id": "my-agno-agent",
+    "team_id": null,
+    "user_id": null,
+    "workflow_id": null,
+    "session_data": {
+      "session_state": {},
+      "session_metrics": {
+        "input_tokens": 96,
+        "output_tokens": 34,
+        "total_tokens": 130,
+        "details": {
+          "model": [
+            {
+              "input_tokens": 96,
+              "output_tokens": 34,
+              "total_tokens": 130,
+              "id": "gpt-4o-mini",
+              "provider": "OpenAI Chat"
+            }
+          ]
+        }
+      }
+    },
+    "metadata": null,
+    "agent_data": {
+      "name": "my-agno-agent",
+      "agent_id": "my-agno-agent",
+      "model": {
+        "provider": "OpenAI",
+        "id": "gpt-4o-mini",
+        "name": "OpenAIChat"
+      }
+    },
+    "runs": [
+      {
+        "run_id": "cb14aa93-682f-4d25-ac0c-1769315a9bc7",
+        "agent_id": "my-agno-agent",
+        "agent_name": "my-agno-agent",
+        "session_id": "session_1",
+        "content": "Hello, Nilarghya! How can I assist you today?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-Dg98eAF4r925zZ8HFS6vz9ZmRVnkr",
+          "system_fingerprint": "fp_949a9cbc65",
+          "model_extra": {
+            "obfuscation": "TrASXARZXL"
+          }
+        },
+        "model": "gpt-4o-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1778937274,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 34,
+          "output_tokens": 14,
+          "total_tokens": 48,
+          "time_to_first_token": 2.6539372080005705,
+          "duration": 3.057496416004142,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 34,
+                "output_tokens": 14,
+                "total_tokens": 48,
+                "id": "gpt-4o-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "e090f29f-adcd-4fe3-b7a1-739429f35ec8",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1778937274
+          },
+          {
+            "id": "51d6bfd1-21a2-44a5-8e07-95f7e30c343e",
+            "content": "My name is Nilarghya",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1778937274
+          },
+          {
+            "id": "45783fa7-fd46-4cf3-a91c-c5f6c664a045",
+            "content": "Hello, Nilarghya! How can I assist you today?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-Dg98eAF4r925zZ8HFS6vz9ZmRVnkr",
+              "system_fingerprint": "fp_949a9cbc65",
+              "model_extra": {
+                "obfuscation": "TrASXARZXL"
+              }
+            },
+            "metrics": {
+              "input_tokens": 34,
+              "output_tokens": 14,
+              "total_tokens": 48,
+              "time_to_first_token": 2.6533237079856917
+            },
+            "created_at": 1778937274
+          }
+        ],
+        "input": {
+          "input_content": "My name is Nilarghya"
+        }
+      },
+      {
+        "run_id": "4a5da313-b02e-4399-9de9-854edc5400ce",
+        "agent_id": "my-agno-agent",
+        "agent_name": "my-agno-agent",
+        "session_id": "session_1",
+        "content": "Your name is Nilarghya. How can I help you today, Nilarghya?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-Dg98ixP7QQItUQX5nu16MgShfPptV",
+          "system_fingerprint": "fp_ac7a1e4bb7",
+          "model_extra": {
+            "obfuscation": "R23aVgUXAU"
+          }
+        },
+        "model": "gpt-4o-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1778937278,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 62,
+          "output_tokens": 20,
+          "total_tokens": 82,
+          "time_to_first_token": 2.0932306250033434,
+          "duration": 2.4453817500034347,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 62,
+                "output_tokens": 20,
+                "total_tokens": 82,
+                "id": "gpt-4o-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "messages": [
+          {
+            "id": "bfca380e-3ed2-4e1f-b209-1dcc27851fb6",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1778937278
+          },
+          {
+            "id": "61fd19dc-aaf1-4d49-b897-f6c6632a83c8",
+            "content": "Can you tell my name ?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1778937278
+          },
+          {
+            "id": "a13e20e1-72b4-4b21-a66d-afe16f2735f7",
+            "content": "Your name is Nilarghya. How can I help you today, Nilarghya?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-Dg98ixP7QQItUQX5nu16MgShfPptV",
+              "system_fingerprint": "fp_ac7a1e4bb7",
+              "model_extra": {
+                "obfuscation": "R23aVgUXAU"
+              }
+            },
+            "metrics": {
+              "input_tokens": 62,
+              "output_tokens": 20,
+              "total_tokens": 82,
+              "time_to_first_token": 2.091344249987742
+            },
+            "created_at": 1778937278
+          }
+        ],
+        "input": {
+          "input_content": "Can you tell my name ?"
+        }
+      }
+    ],
+    "summary": null,
+    "created_at": 1778937274,
+    "updated_at": 1778937280,
+    "session_type": "agent"
+  }
+]
