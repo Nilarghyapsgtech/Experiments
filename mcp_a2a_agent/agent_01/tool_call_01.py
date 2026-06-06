@@ -17,9 +17,9 @@ def rendered_result(result):
 
 async def main():
     async with Client(mcp) as client:
-        tools=client.list_tools()
+        tools=await client.list_tools()
         print("tools:" ,[tool.name for tool in tools])
-        result=client.call_tool("add",{"a":10,"b":40})
+        result=await client.call_tool("add_numbers",{"a":10,"b":40})
         print(f"sum(10,40) is {rendered_result(result)}")
 
 if __name__=="__main__":
