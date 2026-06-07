@@ -3,3 +3,4 @@ env
 .env
 .python-version
 .venv
+me.py
