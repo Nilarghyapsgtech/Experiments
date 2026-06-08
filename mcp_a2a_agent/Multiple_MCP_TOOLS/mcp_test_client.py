@@ -1,6 +1,6 @@
 from fastmcp import Client
 import asyncio
-from mcp_02 import mcp
+from Multiple_MCP_TOOLS.mcp import mcp
 def format_result(result):
     if hasattr(result,"text") and result.text is not None:
         return result.text

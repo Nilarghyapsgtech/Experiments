@@ -1,5 +1,5 @@
 from fastmcp import Client
-from mcp_01 import mcp
+from Basic_MCP_Client.mcp import mcp
 import asyncio
 
 
