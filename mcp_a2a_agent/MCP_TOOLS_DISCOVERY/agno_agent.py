@@ -15,10 +15,12 @@ mcp_tools=MCPTools(
 def discover_tools(mcp_tools:MCPTools):
     function=getattr(mcp_tools,"functions",None)
     if isinstance(function,dict):
-        return sorted(function.keys())
+        keys=sorted(function.keys())
+        return (f"functions:{keys}")
     tools=getattr(mcp_tools,"tools",None)
     if isinstance(tools,list):
-         return sorted(str(tool) for tool in tools)
+         tool_name=sorted([str(tool) for tool in tools])
+         return (f"Tools:{tool_name}")
     return ["<Tools are handled Internally by Agno>"]
 
 
